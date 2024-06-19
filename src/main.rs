@@ -1,8 +1,7 @@
 fn main() {
-    // Shadowing
-    let spaces = "    ";
-    let spaces = spaces.len();
+    let number = 3;
 
-    println!("{spaces}");
-
+    if number != 0 {
+        println!("number was something other than zero");
+    }
 }
